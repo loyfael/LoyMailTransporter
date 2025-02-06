@@ -1,10 +1,9 @@
 # LoyMailTransporter
 
-LoyMailTransporter is a TypeScript project using Node.js 23 to send emails.
+LoyMailTransporter is a simple TypeScript project using Node.js 23 to send emails with nodemailer.
 
 ## Prerequisites
-
-- Node.js 23
+- Node.js 23 (no really?)
 - NPM
 
 ## Installation
@@ -12,17 +11,9 @@ LoyMailTransporter is a TypeScript project using Node.js 23 to send emails.
 Clone the repository and install the dependencies:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/loyfael/loymailtransporter
 cd LoyMailTransporter
 npm install
-```
-
-## Usage
-
-To send an email, use the following command:
-
-```bash
-npm start
 ```
 
 ## Configuration
@@ -42,6 +33,14 @@ SMTP_RECIPIENT=put-your-recipient-email-here
 
 - `npm start`: Starts the application.
 - `npm run build`: Compiles the TypeScript project.
+
+## Usage
+
+To send an email, put your mail HTML template inside **mail folder** (always named index.html, you can modify them as you want) and use the following command:
+
+```bash
+npm start
+```
 
 ## Contributing
 
