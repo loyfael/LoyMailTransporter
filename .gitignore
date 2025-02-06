@@ -1,7 +1,6 @@
 /node_modules
-/build
 /.env
-/mail/*
+/build/mail/*
+/build/index.js
 /assets/*
 /package-lock.json
-/build

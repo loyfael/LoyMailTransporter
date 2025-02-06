@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport({
 });
 
 // Chemin du fichier HTML à joindre
-const htmlFilePath = path.join(__dirname, 'index.html');
+const htmlFilePath = path.join(__dirname, './mail/index.html');
 
 // Vérification de l'existence du fichier HTML
 if (!fs.existsSync(htmlFilePath)) {
